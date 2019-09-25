@@ -32,6 +32,7 @@ sub_units = {
 			infantry_equipment = 55
 			infantry_uniforms = 33
 			horse_equipment = 15
+			food = 125
 		}
 		
 		hardness = -1

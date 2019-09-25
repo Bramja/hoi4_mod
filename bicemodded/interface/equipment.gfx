@@ -31,8 +31,12 @@ spriteTypes = {
 		name = "GFX_naval_equipment_role_icon_unknown"
 		texturefile = "gfx/interface/equipmentdesigner/naval/role_icon_unknown.dds"
 	}
+	SpriteType = {
+		name = "GFX_army_rations_1_medium"
+		texturefile = "gfx/interface/technologies/land/gen/army_rations_1.dds"
+	}
 	
-	
+
 
 
 }

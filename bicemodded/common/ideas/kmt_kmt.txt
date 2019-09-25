@@ -2040,6 +2040,18 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
+		betterlategame_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = idea_yug_serbian_general_staff	
+			modifier = {
+				training_time_factor = -15
+			}
+		}
 	}
 	
 }

@@ -1,0 +1,36 @@
+equipments = {
+	
+	food = {
+	is_archetype = yes
+		is_buildable = no
+		type = infantry
+		picture = army_rations_1
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		reliability = 0.4
+		
+
+		##Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.3
+		resources = {
+			cereal = 8
+			
+		}
+		
+	}
+	army_rations_1 = {
+		year = 1930
+		archetype = food
+		active = yes
+		priority = 11
+		visual_level = 0
+	}
+	
+}
+
