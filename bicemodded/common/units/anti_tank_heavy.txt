@@ -27,6 +27,7 @@ sub_units = {
 		need = {
 			HVanti_tank_equipment = 24
 			motorized_equipment = 24 # truck pulled
+			food = 100
 		}
 		manpower = 300
 		max_organisation = 0
@@ -70,12 +71,12 @@ sub_units = {
 			movement = 0.1
 		}
 		urban = {
-			attack = -0.7
+			attack = -0.8
 			defence = -0.2
 			movement = 0.15
 		}
 		metropoliscity = {
-			attack = -0.8
+			attack = -0.9
 			defence = -0.3 
 			movement = 0.2
 		}
@@ -134,6 +135,7 @@ sub_units = {
 		need = {
 			HVanti_tank_equipment = 24
 			motorized_equipment = 24 # truck pulled
+			food = 100
 		}
 		manpower = 300
 		max_organisation = 0

@@ -5,7 +5,7 @@ sub_units = {
 		active = yes
 		type = { fighter }
 		need = { fighter_equipment = 1 mig_equipment = 1
-        lagg_equipment = 1	heinkel_fw_equipment = 1	}
+        lagg_equipment = 1	heinkel_fw_equipment = 1 food = 1	}
 		categories = { category_fighter }
 	}
 
@@ -14,7 +14,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { cv_fighter_equipment = 1 }
+		need = { cv_fighter_equipment = 1 food = 1 }
 		categories = { category_fighter }
 	}
 
@@ -23,7 +23,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { jet_fighter_equipment = 1 }
+		need = { jet_fighter_equipment = 1 food = 1 }
 		categories = { category_fighter }
 	}
 	
@@ -32,7 +32,7 @@ sub_units = {
 		priority = 2
 		active = yes
 		type = { cas }
-		need = { CAS_equipment = 1 henschel_equipment = 1 
+		need = { CAS_equipment = 1 henschel_equipment = 1 food = 1
 		}
 		categories = { category_cas }
 	}
@@ -42,7 +42,7 @@ sub_units = {
 		priority = 2
 		active = yes
 		type = { cas }
-		need = { cv_CAS_equipment = 1 
+		need = { cv_CAS_equipment = 1 food = 1
 		}
 		categories = { category_cas }
 	}
@@ -52,7 +52,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { naval_bomber }
-		need = { cv_nav_bomber_equipment = 1 
+		need = { cv_nav_bomber_equipment = 1 food = 1
 		}
 		categories = { category_nav_bomber }
 	}
@@ -62,7 +62,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { naval_bomber }
-		need = { nav_bomber_equipment = 1 
+		need = { nav_bomber_equipment = 1 food = 1
 		}
 		categories = { category_nav_bomber }
 	}
@@ -72,7 +72,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { naval_bomber }
-		need = { flying_boat_equipment = 1 }
+		need = { flying_boat_equipment = 1 food = 1 }
 		categories = { category_nav_bomber }
 	}
 	
@@ -81,7 +81,7 @@ sub_units = {
 		priority = 7
 		active = yes
 		type = { interceptor }
-		need = { rocket_interceptor_equipment = 1 }
+		need = { rocket_interceptor_equipment = 1 food = 1 }
 	}
 	
 	tac_bomber = {
@@ -89,7 +89,7 @@ sub_units = {
 		priority = 4
 		active = yes
 		type = { tactical_bomber }
-		need = { tac_bomber_equipment = 1 }
+		need = { tac_bomber_equipment = 1 food = 1 }
 		categories = { category_tac_bomber }
 	}
 	
@@ -98,7 +98,7 @@ sub_units = {
 		priority = 4
 		active = yes
 		type = { tactical_bomber }
-		need = { light_bomber_equipment = 1 }
+		need = { light_bomber_equipment = 1 food = 1 }
 		categories = { category_tac_bomber }
 	}
 	
@@ -107,7 +107,7 @@ sub_units = {
 		priority = 4
 		active = yes
 		type = { tactical_bomber }
-		need = { jet_tac_bomber_equipment = 1 }
+		need = { jet_tac_bomber_equipment = 1 food = 1 }
 		categories = { category_tac_bomber }
 	}
 	
@@ -116,7 +116,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { heavy_fighter_equipment = 1 }
+		need = { heavy_fighter_equipment = 1 food = 1 }
 		categories = { category_heavy_fighter }
 	}
 
@@ -125,7 +125,7 @@ sub_units = {
 		priority = 5
 		active = yes
 		type = { strategic_bomber }
-		need = { strat_bomber_equipment = 1 }
+		need = { strat_bomber_equipment = 1 food = 1 }
 		categories = { category_strat_bomber }
 	}
 
@@ -134,7 +134,7 @@ sub_units = {
 		priority = 5
 		active = yes
 		type = { strategic_bomber }
-		need = { jet_strat_bomber_equipment = 1 
+		need = { jet_strat_bomber_equipment = 1 food = 1
 		 }
 		 categories = { category_strat_bomber }
 	}
@@ -144,7 +144,7 @@ sub_units = {
 		priority = 6
 		active = yes
 		type = { air_transport }
-		need = { transport_plane_equipment = 1 }
+		need = { transport_plane_equipment = 1 food = 1 }
 	}
 
 	guided_missile = {

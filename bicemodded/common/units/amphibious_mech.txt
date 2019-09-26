@@ -56,6 +56,7 @@ sub_units = {
 			amph_equipment = 45
 			infantry_equipment = 55
 			infantry_uniforms = 33
+			food = 100
 		}
 		
 		forest = {

@@ -54,6 +54,7 @@ sub_units = {
 			HQ_equipment = 15
 			infantry_equipment = 10
 			motorized_lia_equipment = 40
+			food = 100
 		}
 		
 		forest = {
@@ -167,6 +168,7 @@ sub_units = {
 			HQ_equipment = 15
 			infantry_equipment = 10
 			motorized_lia_equipment = 45
+			food = 100
 		}
 		
 		forest = {

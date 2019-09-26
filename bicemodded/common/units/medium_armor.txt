@@ -24,6 +24,7 @@ sub_units = {
 
 		need = {
 			medium_tank_equipment = 45
+			food = 100
 		}
 		
 		transport = medium_tank_equipment

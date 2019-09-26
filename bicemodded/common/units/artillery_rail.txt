@@ -26,6 +26,7 @@ sub_units = {
 			railartillery_equipment = 2
 			motorized_equipment = 15
 			HQ_equipment = 5
+			food = 50
 		}
 		manpower = 450
 		training_time = 240

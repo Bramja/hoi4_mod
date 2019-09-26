@@ -24,6 +24,7 @@ sub_units = {
 
 		need = {
 			super_heavy_tank_equipment = 20
+			food = 100
 		}
 		
 		transport = super_heavy_tank_equipment
@@ -130,6 +131,7 @@ sub_units = {
 
 		need = {
 			super_heavy_tank_equipment = 22
+			food = 100
 		}
 		
 		transport = super_heavy_tank_equipment

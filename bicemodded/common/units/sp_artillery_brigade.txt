@@ -24,6 +24,7 @@ sub_units = {
 
 		need = {
 			light_tank_artillery_equipment = 18
+			food = 100
 		}
 		transport = light_tank_artillery_equipment
 		manpower = 200
@@ -127,6 +128,7 @@ sub_units = {
 
 		need = {
 			medium_tank_artillery_equipment = 18
+			food = 100
 		}
 		transport = medium_tank_artillery_equipment
 		manpower = 200
@@ -232,6 +234,7 @@ sub_units = {
 
 		need = {
 			heavy_tank_artillery_equipment = 12
+			food = 100
 		}
 		transport = heavy_tank_artillery_equipment
 		manpower = 200
@@ -336,6 +339,7 @@ sub_units = {
 
 		need = {
 			super_heavy_tank_artillery_equipment = 8
+			food = 100
 		}
 		transport = super_heavy_tank_artillery_equipment
 		manpower = 120
@@ -434,6 +438,7 @@ sub_units = {
 
 		need = {
 			medium_assault_gun_equipment = 35
+			food = 100
 		}
 		transport = medium_assault_gun_equipment
 		manpower = 260
@@ -536,6 +541,7 @@ village = {
 
 		need = {
 			medium_assault_gun_equipment = 35
+			food = 100
 		}
 		transport = medium_assault_gun_equipment
 		manpower = 260

@@ -28,6 +28,7 @@ sub_units = {
 		need = {
 			artillery_equipment = 12
 			horse_equipment = 14 # horse pulled
+			food = 100
 		}
 		
 		manpower = 300
@@ -133,6 +134,7 @@ sub_units = {
 		need = {
 			artillery_equipment = 12
 			motorized_equipment = 14 # truck pulled
+			food = 100
 		}
 		
 		hardness = -1
@@ -244,6 +246,7 @@ sub_units = {
 		need = {
 			mountain_artillery_equipment = 12
 			horse_equipment = 12
+			food = 100
 		}
 		
 		manpower = 300
@@ -285,12 +288,12 @@ sub_units = {
 			movement = 0.0
 		}
 		urban = {
-			attack = -0.6
+			attack = -0.55
 			defence = -0.2 
 			movement = 0.0
 		}
 		metropoliscity = {
-			attack = -0.75
+			attack = -0.65
 			defence = -0.3 
 			movement = 0.0
 		}
@@ -340,6 +343,7 @@ sub_units = {
 		need = {
 			rocket_artillery_equipment = 12
 			horse_equipment = 16
+			food = 75
 		}
 		
 		manpower = 300
@@ -446,6 +450,7 @@ sub_units = {
 		need = {
 			rocket_artillery_equipment = 12
 			motorized_equipment = 16
+			food = 75
 		}
 		
 		hardness = -1

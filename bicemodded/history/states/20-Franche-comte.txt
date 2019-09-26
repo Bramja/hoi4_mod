@@ -5,10 +5,13 @@ state={
 	manpower = 2973200
 	resources={
 		aluminium=16
-		cereal=16
 	}
 
 	state_category = city
+	resources={
+		
+		cereal=16
+	}
 
 	history={
 		owner = FRA

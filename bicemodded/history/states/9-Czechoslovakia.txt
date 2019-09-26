@@ -7,7 +7,9 @@ state={
 	state_category = metropolis
 	resources={
 		cereal=45
+		
 	}
+	
 	history={
 		owner = CZE
 		victory_points = { 11542 20 }

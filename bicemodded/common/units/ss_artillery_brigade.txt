@@ -27,6 +27,7 @@ sub_units = {
 		need = {
 			artillery_equipment = 12
 			horse_equipment = 14 # horse pulled
+			food = 100
 		}
 		
 		manpower = 300
@@ -133,6 +134,7 @@ sub_units = {
 		need = {
 			artillery_equipment = 12
 			motorized_equipment = 14 # truck pulled
+			food = 100
 		}
 		
 		hardness = -1
@@ -241,6 +243,7 @@ sub_units = {
 		need = {
 			mountain_artillery_equipment = 12
 			horse_equipment = 12
+			food = 100
 		}
 		
 		manpower = 300
@@ -337,6 +340,7 @@ sub_units = {
 		need = {
 			rocket_artillery_equipment = 12
 			horse_equipment = 14
+			food = 100
 		}
 		
 		manpower = 300
@@ -439,6 +443,7 @@ sub_units = {
 		need = {
 			rocket_artillery_equipment = 24
 			motorized_equipment = 14 
+			food = 100
 		}
 		
 		hardness = -1

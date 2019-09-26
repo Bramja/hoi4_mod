@@ -45,6 +45,7 @@ sub_units = {
 			motorized_equipment = 15
 			horse_equipment = 35
 			motorized_lia_equipment = 15
+			food = 75
 		}
 
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel
@@ -94,6 +95,7 @@ sub_units = {
 			motorized_equipment = 15
 			horse_equipment = 35
 			motorized_lia_equipment = 15
+			food = 75
 			
 		}
 
@@ -143,6 +145,7 @@ sub_units = {
 			motorized_equipment = 8
 			horse_equipment = 25
 			motorized_lia_equipment = 8
+			food = 50
 			
 		}
 		
@@ -194,6 +197,7 @@ sub_units = {
 			support_equipment = 12
 			motorized_equipment = 65
 			motorized_lia_equipment = 40
+			food = 75
 		}
 
 		own_equipment_fuel_consumption_mult = 1.0 # full fuel
@@ -247,6 +251,7 @@ sub_units = {
 		need = {
 			support_equipment = 20
 			#desert_equip = 10
+			food = 75
 		}
 	}
 	urban_support = {
@@ -308,6 +313,7 @@ sub_units = {
 		need = {
 			support_equipment = 20
 			#urbanwar_equipment = 10
+			food = 75
 		}
 	}
 	amph_support = {
@@ -368,6 +374,7 @@ sub_units = {
 		need = {
 			support_equipment = 5
 			amph_equipment = 12
+			food = 75
 		}
 		
 		fuel_consumption = 2.0
@@ -428,6 +435,7 @@ sub_units = {
 		need = {
 			support_equipment = 5
 			mount_equipment = 12
+			food = 75
 		}
 	}
 #	arctic_support = {
@@ -523,6 +531,7 @@ sub_units = {
 		need = {
 			support_equipment = 20
 			#jungle_equipment = 10
+			food = 75
 		}
 	}
 }

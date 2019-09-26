@@ -53,6 +53,7 @@ sub_units = {
 			infantry_equipment = 45
 			infantry_uniforms = 30
 			horse_equipment = 80
+			food = 75
 		}
 
 		forest = {
@@ -172,6 +173,7 @@ sub_units = {
 			infantry_equipment = 50
 			infantry_uniforms = 32
 			horse_equipment = 80
+			food = 100
 		}
 
 		forest = {

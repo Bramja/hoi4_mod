@@ -51,6 +51,7 @@ sub_units = {
 			infantry_uniforms = 4
 			support_equipment = 40
 			motorized_lia_equipment = 5
+			food = 75
 		}
 
 		can_be_parachuted = yes

@@ -143,6 +143,7 @@ sub_units = {
 			infantry_equipment = 42
 			infantry_uniforms = 30
 			horse_equipment = 10
+			food = 125
 		}
 		
 		hardness = -1
@@ -350,6 +351,7 @@ sub_units = {
 			infantry_equipment = 35
 			infantry_uniforms = 25
 			horse_equipment = 2
+			food = 125
 		}
 	}
 	nkvd = {
@@ -458,6 +460,7 @@ village = {
 			infantry_equipment = 12
 			infantry_uniforms = 45
 			horse_equipment = 10
+			food = 125
 		}
 	}
 	militia = {
@@ -487,6 +490,7 @@ village = {
 			#garrison_equipment = 11
 			infantry_uniforms = 28
 			infantry_equipment = 18
+			food = 125
 		}
 			
 		#Size Definitions
@@ -634,6 +638,7 @@ village = {
 			amph_equipment = 35
 			infantry_uniforms = 35
 			horse_equipment = 5
+			food = 100
 		}
 		
 		forest = {
@@ -758,6 +763,7 @@ village = {
 			mount_equipment = 30
 			infantry_uniforms = 35
 			horse_equipment = 5
+			food = 125
 		}
 
 		forest = {
@@ -881,6 +887,7 @@ village = {
 			infantry_equipment = 38
 			para_equipment = 30
 			infantry_uniforms = 35
+			food = 100
 		}
 
          # Elite unit
@@ -1017,6 +1024,7 @@ village = {
 			mount_equipment = 5
 			infantry_uniforms = 5
 			horse_equipment = 5
+			food = 100
 		}
 		
 		forest = {
@@ -1134,6 +1142,7 @@ village = {
 			infantry_equipment = 58
 			motorized_equipment = 40
 			infantry_uniforms = 33
+			food = 100
 		}
 		
 		forest = {
@@ -1248,6 +1257,7 @@ village = {
 			infantry_equipment = 62
 			motorized_equipment = 100
 			infantry_uniforms = 33
+			food = 100
 		}
 			
 		forest = {
@@ -1364,6 +1374,7 @@ village = {
 			motorized_equipment = 20
 			infantry_equipment = 55
 			infantry_uniforms = 33
+			food = 100
 		}
 		
 		forest = {

@@ -49,6 +49,7 @@ sub_units = {
 			support_equipment = 10
 			infantry_uniforms = 15
 			motorized_lia_equipment = 15
+			food = 75
 		}
 	}
 }

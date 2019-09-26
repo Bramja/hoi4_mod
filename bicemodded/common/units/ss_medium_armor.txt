@@ -24,6 +24,7 @@ sub_units = {
 
 		need = {
 			medium_tank_equipment = 48
+			food = 100
 		}
 		
 		transport = medium_tank_equipment
@@ -132,6 +133,7 @@ sub_units = {
 
 		need = {
 			heavy_tank_equipment = 32
+			food = 100
 		}
 
 		manpower = 300

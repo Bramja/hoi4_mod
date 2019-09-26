@@ -52,6 +52,7 @@ sub_units = {
 			infantry_equipment = 10
 			support_equipment = 10
 			infantry_uniforms = 5
+			food = 100
 		}
 
 		forest = {
@@ -132,6 +133,7 @@ sub_units = {
 			support_equipment = 10
 			infantry_uniforms = 5
 			horse_equipment = 30
+			food = 100
 		}
 
 		forest = {
@@ -213,6 +215,7 @@ sub_units = {
 			support_equipment = 10
 			infantry_uniforms = 5
 			motorized_lia_equipment = 30
+			food = 100
 		}
 
 		fuel_consumption = 0.3
@@ -266,6 +269,7 @@ sub_units = {
 			support_equipment = 10
 			motorized_AC_equipment = 50
 			motorized_lia_equipment = 10
+			food = 100
 		}
 		manpower = 400
 		

@@ -7,6 +7,7 @@ state={
 	resources={
 		cereal=18
 	}
+
 	history={
 		victory_points = {
 			6375 3

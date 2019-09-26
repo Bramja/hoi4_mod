@@ -46,6 +46,7 @@ sub_units = {
 			motorized_equipment = 5
 			HQ_equipment = 20
 			motorized_lia_equipment = 25
+			food = 100
 		}
 	}
 }

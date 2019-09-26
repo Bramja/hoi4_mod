@@ -24,7 +24,7 @@ sub_units = {
 
 		need = {
 			medartillery_equipment = 12
-			
+			food = 125
 			horse_equipment = 24 # horse pulled
 		}
 	
@@ -136,6 +136,7 @@ sub_units = {
 		need = {
 			medartillery_equipment = 12
 			motorized_equipment = 24 # truck pulled
+			food = 100
 			
 		}
 	

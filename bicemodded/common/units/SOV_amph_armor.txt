@@ -26,6 +26,7 @@ sub_units = {    ## the actual amph tank   --- not "sov"
 
 		need = {
 			amph_soviet_tank_equipment = 45
+			food = 75
 		}
 		manpower = 400
 		max_organisation = 30

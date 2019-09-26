@@ -7,7 +7,10 @@ state={
 	state_category = city
 	resources={
 		cereal=15
+		
 	}
+	
+
 	history={
 		owner = FRA
 		victory_points = {
