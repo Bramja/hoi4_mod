@@ -367,10 +367,10 @@ technologies = {
 		}
 	}
 
-	tech_hawker_hurricane_mki_equipment_1 = {
+	tech_UK_fighther_equipment_3_a = {
 		
 		enable_equipments = {
-			hawker_hurricane_mki_equipment_1
+			UK_fighther_equipment_3_a
 		}
 		path = {
 			leads_to_tech = tech_UK_cv_fighther_equipment_3_a
