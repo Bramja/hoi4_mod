@@ -4438,13 +4438,13 @@ equipments = {
 			UK_fighther_equipment_1_a
 		}
 		
-		air_range = 425
+		air_range = 500
 		maximum_speed = 400
 		air_agility = 46.5
 		air_attack = 15
 		air_defence = 9
 		
-		build_cost_ic = 16.9
+		build_cost_ic = 17.5
 	}
 
 	#Hurricane Mk I	
@@ -4455,135 +4455,212 @@ equipments = {
 	
 		is_convertable = yes
 	
-		air_range = 550	
-		maximum_speed = 440
-		air_agility = 50
-		air_attack = 17.5
-		air_defence = 9.5	
-		
-		build_cost_ic = 18.1	
-	}
-
-	#Superm. Spitf.	
-	spitfire_equipment_1 = {    #		1938
-		archetype = fighter_equipment
-		parent = gladiator_fighter_equipment_1
-		priority = 70
-		
-		air_range = 550				#basic
-		maximum_speed = 520				#basic
-		air_agility = 51
-		air_attack = 18.5
+		air_range = 675
+		maximum_speed = 460
+		air_agility = 49
+		air_attack = 19
 		air_defence = 10	
 		
-		build_cost_ic = 18.5	
-	}
-
-	#Spitfire MkIIB	
-	spitfire_mkiib_equipment_1 = {    	#1940
-		archetype = fighter_equipment
-		parent = spitfire_equipment_1
-		priority = 70
-		
-		air_range = 550				#basic
-		maximum_speed = 560				#basic
-		air_agility = 56
-		air_attack = 21
-		air_defence = 11
-		
-		build_cost_ic = 19.0	
+		build_cost_ic = 18.6	
 	}
 
 	#Hurricane MkIIA	
-	hawker_hurricane_mkiia_equipment_1 = {    #1940
+	UK_fighther_equipment_4_a = {    #1940
 		archetype = fighter_equipment
-		parent = hawker_hurricane_mki_equipment_1
+		parent = UK_fighther_equipment_3_a
 		priority = 50
+
+		is_convertable = yes
 		
-		air_range = 625				#basic
-		maximum_speed = 560				#basic
+		can_convert_from = {
+			UK_fighther_equipment_3_a
+		}
+		
+		air_range = 750
+		maximum_speed = 560
 		air_agility = 56
 		air_attack = 22
 		air_defence = 11
 		
-		build_cost_ic = 19.9
+		build_cost_ic = 20.9
 	}
 
-	#Hurricane MkIIB	
-	hawker_hurricane_mkiib_equipment_1 = {    #		1941
+	#Hurricane MkIIC
+	UK_fighther_equipment_5_a = {    #		1942
 		archetype = fighter_equipment
-		parent = hawker_hurricane_mkiia_equipment_1
+		parent = UK_fighther_equipment_4_a
 		priority = 50
 		
-		air_range = 675			#basic
-		maximum_speed = 600				#basic
-		air_agility = 58
-		air_attack = 23
-		air_defence = 11.5	
+		is_convertable = yes
 		
-		build_cost_ic = 20.1	
+		can_convert_from = {
+			UK_fighther_equipment_4_a
+		}
+		
+		air_range = 850
+		maximum_speed = 600	
+		air_agility = 60
+		air_attack = 24
+		air_defence = 12	
+		
+		build_cost_ic = 21.5	
+	}
+
+	#Hurricane MkIII	
+	UK_fighther_equipment_6_a = {    #		1944
+		archetype = fighter_equipment
+		parent = UK_fighther_equipment_5_a
+		priority = 50
+
+		can_convert_from = {
+			UK_fighther_equipment_5_a
+		}
+		
+		air_range = 975
+		maximum_speed = 720	
+		air_agility = 62
+		air_attack = 28
+		air_defence = 13	
+		
+		build_cost_ic = 22.1	
+	}
+
+	#Superm. Spitf.	I
+	UK_fighther_equipment_3_b = {    #		1937
+		archetype = fighter_equipment
+		parent = UK_fighther_equipment_1_a		
+		priority = 70
+		
+		is_convertable = yes
+				
+		air_range = 550
+		maximum_speed = 470
+		air_agility = 48
+		air_attack = 16
+		air_defence = 10	
+
+		is_convertable = yes
+		
+		build_cost_ic = 17.6	
+	}
+
+	#Spitfire MkII
+	UK_fighther_equipment_4_b = {    	#1939
+		archetype = fighter_equipment
+		parent = UK_fighther_equipment_3_b
+		priority = 70
+
+		is_convertable = yes
+		
+		can_convert_from = {
+			UK_fighther_equipment_3_b
+		}
+		
+		air_range = 675
+		maximum_speed = 540
+		air_agility = 53
+		air_attack = 19.5
+		air_defence = 11
+		
+		build_cost_ic = 19.4	
 	}
 	
 	#Spitfire Vc	
-
-	spitfire_mkvc_equipment_1 = {    #		1942  
+	UK_fighther_equipment_5_b = {    #		1941
 		archetype = fighter_equipment
-		parent = spitfire_mkiib_equipment_1
+		parent = UK_fighther_equipment_4_b
 		priority = 70
+
+		is_convertable = yes
 		
-		air_range = 750				#basic
-		maximum_speed = 600				#basic
-		air_agility = 60
-		air_attack = 24.5
+		can_convert_from = {
+			UK_fighther_equipment_4_b
+		}
+		
+		air_range = 750
+		maximum_speed = 630
+		air_agility = 57
+		air_attack = 21.5
 		air_defence = 12		
+		
+		build_cost_ic = 20	
+	}
+
+	#Spitfire VI
+	UK_fighther_equipment_6_b = {  		  #		1943
+		archetype = fighter_equipment
+		parent = UK_fighther_equipment_5_b
+		priority = 70
+
+		is_convertable = yes
+		
+		can_convert_from = {
+			UK_fighther_equipment_5_b
+		}
+		
+		air_range = 825
+		maximum_speed = 710
+		air_agility = 61
+		air_attack = 25
+		air_defence = 13		
 		
 		build_cost_ic = 20.9	
 	}
 
-	#		1942 1943 not in the game 
-	spitfire_mkix_equipment_1 = {  		  #		1942 not in the game
-		archetype = fighter_equipment
-		parent = spitfire_mkvc_equipment_1
-		priority = 70
-		
-		air_range = 600				#basic
-		maximum_speed = 640				#basic
-		air_agility = 58
-		air_attack = 24.5
-		air_defence = 12		
-		
-		build_cost_ic = 21.15	
-	}
-
 	#Spitfire XIV
-    spitfire_mkxiv_equipment_1 = {   	 #		1944  
+    UK_fighther_equipment_7_b = {   	 #		1945
 		archetype = fighter_equipment
-		parent = spitfire_mkix_equipment_1
+		parent = UK_fighther_equipment_6_b
 		priority = 70
 		
-		air_range = 800			#basic
-		maximum_speed = 720
-		air_agility = 64
-		air_attack = 27.5
-		air_defence = 13		
+		can_convert_from = {
+			UK_fighther_equipment_6_b
+		}
 		
-		build_cost_ic = 21.6	
+		air_range = 950
+		maximum_speed = 800
+		air_agility = 65
+		air_attack = 28.5
+		air_defence = 14		
+		
+		build_cost_ic = 22.3	
 	}	
 
-	#1945	not in the game
-	spitfire_mkxxi_equipment_1 = {    #1945  not in game
+	#Hawker Tempest F Mk. I
+    UK_fighther_equipment_1_c = {   	 #		1943
 		archetype = fighter_equipment
-		parent = spitfire_mkxiv_equipment_1
+		parent = UK_fighther_equipment_5_a
 		priority = 70
+
+		is_convertable = yes
 		
-		air_range = 675				#basic
-		maximum_speed = 760				#basic
-		air_agility = 64				#basic
-		air_attack = 28.5				#basic
-		air_defence = 13.5					#basic
+		air_range = 950
+		maximum_speed = 690
+		air_agility = 60
+		air_attack = 26.5
+		air_defence = 12.5		
 		
-		build_cost_ic = 22.5					#basic
-	}
+		build_cost_ic = 21.8	
+	}	
+	
+	#Hawker Tempest F Mk. II
+    UK_fighther_equipment_1_c = {   	 #		1945
+		archetype = fighter_equipment
+		parent = UK_fighther_equipment_5_a
+		priority = 70
+
+		can_convert_from = {
+			UK_fighther_equipment_1_c
+		}
+		
+		air_range = 1100
+		maximum_speed = 750
+		air_agility = 64
+		air_attack = 31
+		air_defence = 13.5		
+		
+		build_cost_ic = 23.6	
+	}	
 	
 ############ UK Cv-Fighter #############	
 	
