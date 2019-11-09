@@ -684,16 +684,16 @@ technologies = {
 		}
 	}
 
-	tech_bristol_blenheim_f_equipment_1 = {
+	tech_UK_heavy_fighther_equipment_1_b = {
 		
 		enable_equipments = {
-			bristol_blenheim_f_equipment_1
+			UK_heavy_fighther_equipment_1_b
 		}
 		dependencies = {
 			tech_english_aircraft1 = 1 
 		}
 				path = {
-			leads_to_tech = tech_bristol_beaufighter_equipment_1
+			leads_to_tech = tech_UK_heavy_fighther_equipment_2_b
 			research_cost_coeff = 1
 		}
 		categories = {
@@ -712,17 +712,17 @@ technologies = {
 			factor = 0
 		}
 	}
-	tech_bristol_beaufighter_equipment_1 = {
+	tech_UK_heavy_fighther_equipment_2_b = {
 		
 		enable_equipments = {
-			bristol_beaufighter_equipment_1
+			UK_heavy_fighther_equipment_2_b
 		}
 		dependencies = {
 			tech_english_aircraft1 = 1 
 			
 		}
 				path = {
-			leads_to_tech = tech_westland_whirlwind_equipment_1
+			leads_to_tech = tech_UK_heavy_fighther_equipment_1_a
 			research_cost_coeff = 1
 		}
 		categories = {
@@ -741,16 +741,16 @@ technologies = {
 			factor = 0
 		}
 	}
-	tech_westland_whirlwind_equipment_1 = {
+	tech_UK_heavy_fighther_equipment_1_a = {
 		
 		enable_equipments = {
-			westland_whirlwind_equipment_1
+			UK_heavy_fighther_equipment_1_a
 		}
 		dependencies = {
 			tech_english_aircraft1 = 1 
 		}
 				path = {
-			leads_to_tech = tech_mosquito_hvf_equipment_1
+			leads_to_tech = tech_UK_heavy_fighther_equipment_1_c
 			research_cost_coeff = 1
 		}
 		categories = {
@@ -769,16 +769,16 @@ technologies = {
 			factor = 0
 		}
 	}
-	tech_mosquito_hvf_equipment_1 = {
+	tech_UK_heavy_fighther_equipment_1_c = {
 		
 		enable_equipments = {
-			mosquito_hvf_equipment_1
+			UK_heavy_fighther_equipment_1_c
 		}
 		dependencies = {
 			tech_english_aircraft1 = 1  
 		}
 		path = {
-			leads_to_tech = tech_welkin_equipment_1
+			leads_to_tech = tech_UK_heavy_fighther_equipment_2_c
 			research_cost_coeff = 1
 		}
 		categories = {
@@ -797,16 +797,16 @@ technologies = {
 			factor = 10
 		}
 	}
-	tech_welkin_equipment_1 = {
+	tech_UK_heavy_fighther_equipment_2_c = {
 		
 		enable_equipments = {
-			welkin_equipment_1
+			UK_heavy_fighther_equipment_2_c
 		}
 		dependencies = {
 			tech_english_aircraft1 = 1 
 		}
 				path = {
-			leads_to_tech = tech_welkin_equipment_1
+			leads_to_tech = tech_UK_heavy_fighther_equipment_2_c
 			research_cost_coeff = 1
 		}
 		categories = {
