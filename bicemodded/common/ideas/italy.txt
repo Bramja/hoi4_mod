@@ -1138,7 +1138,7 @@ ideas = {
 			
 			cost = 200
 			available = { 
-				has_completed_focus = ITA_guidonia
+				has_completed_focus = ITA_bomber
 			}					
 			
 			traits = { air_strategic_bombing_3 }
