@@ -106,6 +106,19 @@ focus_tree = {
 			    ideology = neutrality
 			    popularity = 0.05
 			}
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						NOT = {
+							state = 290
+							state = 699
+							state = 783
+							state = 297
+						}
+					}
+					SPA_garrison_control_cost_calculation = yes
+				}
+			}
 		}
 	}
 
@@ -210,6 +223,66 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_SPA_CIVIL_WAR}
 		completion_reward = {
+			custom_effect_tooltip = SPA_secure_the_northern_garrisons_tt
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
+						OR = {
+							state = 171
+							state = 174
+							state = 788
+							state = 791
+							state = 176
+							state = 166
+							state = 172
+						}
+					}
+					set_state_flag = SPA_northern_garrisons_state_flag
+					add_to_variable = { var = SPA_garrison_control value = 3 }
+					SPR = { add_to_variable = { var = spa_civil_war_divisions_counter_var value = 3 } }
+					SPR = { subtract_from_variable = { var = spr_civil_war_divisions_counter_var value = 3 } }
+					SPA_garrison_control_cost_calculation = yes
+				}
+				every_owned_state = {
+					limit = {
+						check_variable = { var = SPA_garrison_control value = 2 compare = equals }
+						OR = {
+							state = 171
+							state = 174
+							state = 788
+							state = 791
+							state = 176
+							state = 166
+							state = 172
+						}
+					}
+					set_state_flag = SPA_northern_garrisons_state_flag
+					add_to_variable = { var = SPA_garrison_control value = 2 }
+					SPR = { add_to_variable = { var = spa_civil_war_divisions_counter_var value = 2 } }
+					SPR = { subtract_from_variable = { var = spr_civil_war_divisions_counter_var value = 2 } }
+					SPA_garrison_control_cost_calculation = yes
+				}
+				every_owned_state = {
+					limit = {
+						check_variable = { var = SPA_garrison_control value = 3 compare = equals }
+						OR = {
+							state = 171
+							state = 174
+							state = 788
+							state = 791
+							state = 176
+							state = 166
+							state = 172
+						}
+					}
+					set_state_flag = SPA_northern_garrisons_state_flag
+					add_to_variable = { var = SPA_garrison_control value = 1 }
+					SPR = { add_to_variable = { var = spa_civil_war_divisions_counter_var value = 1 } }
+					SPR = { subtract_from_variable = { var = spr_civil_war_divisions_counter_var value = 1 } }
+					SPA_garrison_control_cost_calculation = yes
+				}
+			}
 		}
 	}
 
@@ -318,6 +391,19 @@ focus_tree = {
 			add_popularity = {
 			    ideology = neutrality
 			    popularity = 0.05
+			}
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						NOT = {
+							state = 290
+							state = 699
+							state = 783
+							state = 297
+						}
+					}
+					SPR_garrison_control_cost_calculation = yes
+				}
 			}
 		}
 	}
