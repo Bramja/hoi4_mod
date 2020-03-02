@@ -22,24 +22,7 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	every_owned_state = {
-		limit = {
-			NOT = {
-				state = 177
-				state = 178
-				state = 290
-				state = 699
-				state = 783
-				state = 297
-			}
-		}
-		set_variable = { var = SPA_garrison_control value = 1 }
-		SPA_garrison_control_cost_calculation = yes
-	}
+
 	set_popularities = {
 		democratic = 41
 		fascism = 37
